@@ -22,6 +22,9 @@ management:
   
 server:
     port: ${API_PORT:1234}
+    
+app:
+  test: "Hello Anson Dev"
 
 logging:
   level: 

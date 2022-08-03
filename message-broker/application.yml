@@ -23,6 +23,9 @@ management:
 server:
     port: ${API_PORT:9092}
 
+app:
+  test: "Hello Anson"
+
 logging:
   level: 
     '[com.ansapp]': debug
